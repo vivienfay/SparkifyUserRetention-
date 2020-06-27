@@ -1,0 +1,2 @@
+userId,regDayNum,avgSessionTimeNum,minSessionTimeNum,maxSessionTimeNum,avgSessionSongsNum,sessionCountNum,genderNum,levelNum,freqSubmitDowngradeNum,freqThumbsDownNum,freqHomeNum,freqDowngradeNum,freqRollAdvertNum,freqLogoutNum,freqSaveSettingsNum,freqAboutNum,freqSettingsNum,freqAddtoPlaylistNum,freqAddFriendNum,freqNextSongNum,freqThumbsUpNum,freqHelpNum,freqUpgradeNum,freqErrorNum,freqSubmitUpgradeNum,aritstCountNum,churnNum
+156,0.31372684,7.0,7.0,7.0,3.0,1.0,0.0,0.0,0.0,0.0,16.666666,0.0,16.666666,0.0,0.0,0.0,16.666666,0.0,0.0,50.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0
