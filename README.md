@@ -10,8 +10,8 @@ Scope:
 1. Design a dimension model based on its business   
 2. Stage data in Redshift and process them to a data lake by Spark.
 3. Configured data pipeline with Airflow
-4. Build a model to predict the user retention using EMR
-5. Create a Tableau Dashboard to analyze the user activity based on data from Redshift and prediction model from step 4
+4. Build a model to predict the user retention based on mini dataset using Spark, and predict user retention using data in Redshift and save back to redshift.
+5. Create a Tableau Dashboard to analyze the user activity based on data from Redshift and prediction model from step 4.
 
 
 
@@ -29,10 +29,13 @@ Folder:
         etl.py: tigger the command to extract data from S3 bucket, transfrom to the appropriate format and load it to tables in Redshift
 
 2_AirflowConfiguration:
+
     dags: dag flow
+    
     plugins: helper & operations
 
 3_UserRententionPrediction：
+
     Sparkify User Retention jupyter notebook: building model using Spark
 
 
