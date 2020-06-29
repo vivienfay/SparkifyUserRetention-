@@ -19,9 +19,13 @@ Folder:
 
 1_DataWarehouse:
     script:
+    
         create_cluster.py: create a new iam role and create a redshift cluster
+        
         create_tables.py: tigger the command to create tables and drop tables
+        
         dwh.cfg: configuration file. Includes the keys and secrets of aws account, server name, arn and so on. the important information are removed
+        
         etl.py: tigger the command to extract data from S3 bucket, transfrom to the appropriate format and load it to tables in Redshift
 
 2_AirflowConfiguration:
