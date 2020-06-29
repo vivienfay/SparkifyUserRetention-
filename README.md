@@ -16,6 +16,7 @@ Scope:
 
 
 Folder:
+
 1_DataWarehouse:
     script:
         create_cluster.py: create a new iam role and create a redshift cluster
