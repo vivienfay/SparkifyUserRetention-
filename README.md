@@ -23,15 +23,14 @@ Folder:
         dwh.cfg: configuration file. Includes the keys and secrets of aws account, server name, arn and so on. the important information are removed
         etl.py: tigger the command to extract data from S3 bucket, transfrom to the appropriate format and load it to tables in Redshift
 
-    jupyter notebook:
-        Testing_Notebook.ipynb: for testing the code
-
 2_AirflowConfiguration:
-
+    dags: dag flow
+    plugins: helper & operations
 
 3_UserRententionPrediction：
+    Sparkify User Retention jupyter notebook: building model using Spark
 
 
-4_Dashboard
-
-https://public.tableau.com/profile/wenxian.fei#!/vizhome/Sparkify_User_Retention/UserAnalysisReport
+4_Dashboard:
+    tableau workbook
+    you can also click the link to view the dashboard: https://public.tableau.com/profile/wenxian.fei#!/vizhome/Sparkify_User_Retention/UserAnalysisReport
